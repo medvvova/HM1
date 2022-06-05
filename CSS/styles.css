@@ -1,0 +1,93 @@
+:root {
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo-second-name {
+    color: #000000;
+}
+
+.logo-first-name {
+    color: var(--accent-color);
+}
+
+.site-nav-link {
+    color: var(--title-text-color);
+}
+
+.site-nav-link:hover, .site-nav-link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav-link.current {
+    color: var(--accent-color);
+}
+
+.contacts-nav-link {
+color: var(--primary-text-color);
+}
+
+.contacts-nav-link:hover, .contacts-nav-link:focus {
+    color: var(--accent-color);
+}
+
+.hero-title {
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+
+.hero-button {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.section-title-clear-subtitle {
+    color: var(--title-text-color);
+}
+
+.section-title-clear {
+    color: var(--title-text-color);
+}
+
+.section-title-clear-text {
+    color: var(--primary-text-color);
+}
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+.worker-name {
+    color: var(--title-text-color);
+}
+
+.worker-profession {
+    color: var(--primary-text-color);
+}
+
+
+.footer-logo {
+    background-color: #2F303A;
+}
+
+.footer-logo-second-name {
+    color: #FFFFFF;
+}
+
+.address {
+    color: #FFFFFF;
+}
+
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
+}
